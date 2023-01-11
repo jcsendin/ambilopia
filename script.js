@@ -11,7 +11,6 @@ const checkboxShape = document.getElementById("shape");
 const ball = document.getElementById("ball");
 
 function updateAnimation(type) {
-    console.log(selectedAnimation + selectedVariation);
     ball.classList.remove(selectedAnimation + selectedVariation);
 
     if (type == "color" || type == "shape") {
