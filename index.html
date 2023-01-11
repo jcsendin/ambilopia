@@ -17,13 +17,19 @@
         </div>
 
         <div class="selectors">
-            <button class="selector" id="square">Cuadrado</button>
-            <button class="selector" id="triangle">Triángulo</button>
-            <button class="selector" id="circle">Círculo</button>
+            <div class="selector__shape">
+                <button class="selector" id="square">Cuadrado</button>
+                <button class="selector" id="triangle">Triángulo</button>
+                <button class="selector" id="circle">Círculo</button>
+            </div>
+            <div class="selector__variation">
+                <input type="checkbox" class="selector" id="color">Color</button>
+                <input type="checkbox" class="selector" id="shape">Forma</button>
+            </div>
         </div>
 
         <div class="canvas">
-            <div id="ball" class="ball square animation--activated"></div>
+            <div id="ball" class="ball animation--activated square"></div>
 
         </div>
     </div>
